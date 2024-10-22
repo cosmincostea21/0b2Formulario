@@ -15,11 +15,15 @@
             <legend>Datos Personales</legend>
             <p>
                 <label for="nom">Nombre:</label>
-                <input type="text" maxlength="6" nombre="nombre" id="nom">
+                <input type="text" maxlength="6" nombre="nombre" id="nom" placeholder="Escribe tu nombre" required>
+            </p>
+            <p>
+                <label for="pobl">Poblacion: </label>
+                <input type="text" maxlength="50" autofocus nombre="pobl" id="pob" placeholder="Alcazar de san juan" required>
             </p>
             <p>
                 <label for="contras">Contraseña</label>
-                <input required type="password" maxlength="6" nombre="contras" id="contras">
+                <input required type="password" maxlength="6" minlength="4" nombre="contras" id="contras">
             </p>
             <p>
                 <label for="hombre">Hombre:</label>
